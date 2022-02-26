@@ -16,6 +16,18 @@ npm run dev
 
 `.env`の内容は個人のNotionに書いてます。
 
+## API確認方法
+
+```
+npm run dev
+```
+`http://localhost:5000/api/posts`  
+`http://localhost:5000/api/${id}`
+
+params
+- title: string
+- content: string
+
  ## Todo
  
  認証機能  
